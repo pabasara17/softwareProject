@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/loginapplogoreg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo"
+        />
+    <TextView
+        android:id="@+id/tvnamereg"
+        android:layout_below="@id/loginapplogoreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jwel Smart"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"/>
+    <ScrollView
+        android:id="@+id/scrollv1"
+        android:layout_below="@id/tvnamereg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/et1username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputs"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="20dp"
+            android:padding="10dp"
+            android:hint="User Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="25dp"/>
+        <EditText
+            android:id="@+id/et2phnum"
+            android:layout_below="@id/et1username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputs"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="20dp"
+            android:padding="10dp"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="25dp"/>
+        <EditText
+            android:id="@+id/et3email"
+            android:layout_below="@id/et2phnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputs"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="20dp"
+            android:padding="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/et4paswrd"
+            android:layout_below="@id/et3email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputs"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="20dp"
+            android:padding="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="25dp"/>
+        <EditText
+            android:id="@+id/et5cnfrmpaswrd"
+            android:layout_below="@id/et4paswrd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputs"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="20dp"
+            android:padding="10dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btncreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et5cnfrmpaswrd"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttons"
+            android:text="Create Account"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="60dp"
+            android:textAllCaps="false"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "1054049673575",
+    "firebase_url": "https://jwel-smart.firebaseio.com",
+    "project_id": "jwel-smart",
+    "storage_bucket": "jwel-smart.appspot.com"
+  },
+  "client": [{
+    "client_info": {
+      "mobilesdk_app_id": "1:1054049673575:android:f3a11aa6748d23e9dd8fc2",
+      "android_client_info": {
+        "package_name": "com.jwel_smart.jwel_smart"
+      }
+    },
+    "oauth_client": [{
+        "client_id": "1054049673575-107ju9n8sj9eu1u7hseeduvlq4bcfehd.apps.googleusercontent.com",
+        "client_type": 1,
+        "android_info": {
+          "package_name": "com.jwel_smart.jwel_smart",
+          "certificate_hash": "5dbbc04b82e1936b7a4c7d8ee49b6c1ac0524917"
+        }
+      },
+      {
+        "client_id": "1054049673575-k3fr90i7akchdt4jlqrqdgkmbgtsm9ii.apps.googleusercontent.com",
+        "client_type": 3
+      }
+    ],
+    "api_key": [{
+      "current_key": "AIzaSyCqhcQWe8ZJo_ZtaJ_yR2NE3PpE0hon8FY"
+    }],
+    "services": {
+      "appinvite_service": {
+        "other_platform_oauth_client": [{
+          "client_id": "1054049673575-k3fr90i7akchdt4jlqrqdgkmbgtsm9ii.apps.googleusercontent.com",
+          "client_type": 3
+        }]
+      }
+    }
+  }],
+  "configuration_version": "1"
+}
